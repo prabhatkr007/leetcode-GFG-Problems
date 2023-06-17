@@ -1,2 +1,2 @@
-# leetcode
+# leetcode & GFG
 Collection of LeetCode questions to ace the coding interview! 

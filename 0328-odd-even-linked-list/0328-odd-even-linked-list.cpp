@@ -12,43 +12,43 @@ class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
         
-//         if(!head || !head->next) return head;
+        if(!head || !head->next) return head;
         
-//         ListNode* odd = head,*even = head->next;
-//         ListNode* even_ = even;
+        ListNode* odd = head,*even = head->next;
+        ListNode* even_ = even;
         
-//         while(odd->next && even->next){
-//             odd->next = odd->next->next;
-//             even->next = even->next->next;
-//             odd = odd->next;
-//             even = even->next;
-//         }
-        
-//         odd->next = even_;
-        
-//         return head;
-        
-        if(!head || !head -> next) return head;
-        
-        ListNode* odd = head;
-        ListNode* even = head -> next;
-        ListNode* evenStart = even;
-        
-        while(odd-> next && even -> next){
-            
-            odd -> next = even ->next;
+        while(odd->next && even->next){
+            odd->next = odd->next->next;
+            even->next = even->next->next;
             odd = odd->next;
-            even -> next = odd -> next;
-            even = odd->next;
+            even = even->next;
         }
         
-        odd -> next = evenStart;
-        
-//         if(even -> next != NULL){
-//             even -> next == NULL;
-//         }
+        odd->next = even_;
         
         return head;
+        
+//         if(!head || !head -> next) return head;
+        
+//         ListNode* odd = head;
+//         ListNode* even = head -> next;
+//         ListNode* evenStart = even;
+        
+//         while(odd-> next && even -> next){
+            
+//             odd -> next = even ->next;
+//             odd = odd->next;
+//             even -> next = odd -> next;
+//             even = odd->next;
+//         }
+        
+//         odd -> next = evenStart;
+        
+// //         if(even -> next != NULL){
+// //             even -> next == NULL;
+// //         }
+        
+//         return head;
     }
         
     

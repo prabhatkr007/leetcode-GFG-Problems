@@ -16,13 +16,10 @@ public:
             return 0;
         }
         
-        
-        
         int leftdepth = minDepth(root -> left);
         int rightdepth = minDepth(root -> right);
         
        
-        
         if(root -> left == NULL){
             return rightdepth +1;
         }

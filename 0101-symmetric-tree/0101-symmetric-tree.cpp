@@ -18,13 +18,13 @@ class Solution {
             }
         
     
-        if (!p || !q) return false;
+        // if (!p || !q) return false;
         
-//         if(p == NULL && q !=NULL) 
-//             return false;
+        if(p == NULL && q !=NULL) 
+            return false;
         
-//         if(q == NULL && p !=NULL) 
-//             return false;
+        if(q == NULL && p !=NULL) 
+            return false;
         
         
         if(p -> val != q -> val){

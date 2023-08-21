@@ -21,12 +21,8 @@ public:
             
             
             if(temp2 == NULL){
-                temp2 = headA;
-                
-            }else  temp2 = temp2 -> next;
-            
-            
-           
+                temp2 = headA;  
+            }else  temp2 = temp2 -> next;       
         }
         
         return temp1;

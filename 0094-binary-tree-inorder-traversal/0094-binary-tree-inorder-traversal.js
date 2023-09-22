@@ -18,7 +18,7 @@ var inorderTraversal = function(root) {
     
     let ans = [];
     
-    var traversal = function (node){
+    function traversal (node){
         
         if(node === null){
             return [];

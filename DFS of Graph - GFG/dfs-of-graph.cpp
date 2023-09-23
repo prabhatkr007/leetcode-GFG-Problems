@@ -7,13 +7,10 @@ class Solution {
       void dfs(int node , vector <bool> & vis, vector <int> adj[], vector <int> &ans ){
         
         vis[node]= true;
-        
         ans.push_back(node);
         
         for(auto i: adj[node]){
-            
             if(!vis[i]){
-                
                 dfs(i, vis, adj, ans);
             }
         }
@@ -22,13 +19,11 @@ class Solution {
     // Function to return a list containing the DFS traversal of the graph.
     vector<int> dfsOfGraph(int V, vector<int> adj[]) {
         // Code here
-       vector <bool> vis(V, false);
+        vector <bool> vis(V, false);
         vector<int> ans;
         
-   
         dfs(0, vis, adj, ans);
-          
-    
+
         return ans;
     }
 };

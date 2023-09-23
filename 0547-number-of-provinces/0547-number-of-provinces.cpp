@@ -8,6 +8,29 @@ class Solution {
             dfs(neighbours, vis, adj);
         }
     }
+    
+     void bfs ( int k, vector <bool> &visited ,   unordered_map<int, list<int> > adj){
+
+            queue <int> q;
+            q.push(k);
+            visited[k] = 1;
+
+            while(!q.empty()){
+                int node = q.front();
+                q.pop();
+
+               for(auto neigh : adj[node]){
+
+                if(!visited[neigh]){
+                    q.push(neigh);
+                    visited[neigh] = 1;
+                }
+                   
+
+                }
+            }
+            
+    }
 public:
     int findCircleNum(vector<vector<int>>& isConnected) {
         unordered_map<int, list<int> > adj;
@@ -29,7 +52,7 @@ public:
             
             if(!vis[i]){
             count++;
-            dfs(i, vis, adj);
+            bfs(i, vis, adj);
                 
             }
         }

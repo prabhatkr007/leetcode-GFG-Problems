@@ -4,9 +4,9 @@ using namespace std;
 
 // } Driver Code Ends
 class Solution {
-      void dfs(int node , vector <int> & vis, vector <int> adj[], vector <int> &ls ){
+      void dfs(int node , vector <bool> & vis, vector <int> adj[], vector <int> &ls ){
         
-        vis[node]= 1;
+        vis[node]= true;
         
         ls.push_back(node);
         
@@ -14,7 +14,7 @@ class Solution {
             
             if(!vis[it]){
                 
-                vis[it] = 1;
+                vis[it] = true;
                 
                 dfs(it, vis, adj, ls);
             }
@@ -24,11 +24,11 @@ class Solution {
     // Function to return a list containing the DFS traversal of the graph.
     vector<int> dfsOfGraph(int V, vector<int> adj[]) {
         // Code here
-       vector <int> vis(V, 0);
+       vector <bool> vis(V, false);
         vector<int> ans;
         
    
-                     dfs(0, vis, adj, ans);
+        dfs(0, vis, adj, ans);
           
     
         return ans;

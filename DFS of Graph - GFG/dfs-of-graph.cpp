@@ -4,17 +4,17 @@ using namespace std;
 
 // } Driver Code Ends
 class Solution {
-      void dfs(int node , vector <bool> & vis, vector <int> adj[], vector <int> &ls ){
+      void dfs(int node , vector <bool> & vis, vector <int> adj[], vector <int> &ans ){
         
         vis[node]= true;
         
-        ls.push_back(node);
+        ans.push_back(node);
         
         for(auto i: adj[node]){
             
             if(!vis[i]){
                 
-                dfs(i, vis, adj, ls);
+                dfs(i, vis, adj, ans);
             }
         }
     }

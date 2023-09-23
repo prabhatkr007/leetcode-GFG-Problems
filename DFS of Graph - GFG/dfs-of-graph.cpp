@@ -10,13 +10,11 @@ class Solution {
         
         ls.push_back(node);
         
-        for(auto it: adj[node]){
+        for(auto i: adj[node]){
             
-            if(!vis[it]){
+            if(!vis[i]){
                 
-                vis[it] = true;
-                
-                dfs(it, vis, adj, ls);
+                dfs(i, vis, adj, ls);
             }
         }
     }

@@ -4,25 +4,23 @@ class Solution {
         
         vector<pair<int, int> > directions = {{1,0}, {-1, 0}, {0, 1}, {0, -1}};
         
-        
         while(!pixels.empty()){
             int size = pixels.size();
             
-                while(size--){
-                    auto [x,y] = pixels.front();
-                    pixels.pop();
+            while(size--){
+                auto [x,y] = pixels.front();
+                pixels.pop();
                     
-                    for(auto dir : directions){
-                        int newX = dir.first + x;
-                        int newY = dir.second + y;
+                for(auto dir : directions){
+                    int newX = dir.first + x;
+                    int newY = dir.second + y;
                         
-                        if(newX >= 0 && newY >= 0 && newX < m && newY < n && image[newX][newY] == pixelColor){
+                    if(newX >= 0 && newY >= 0 && newX < m && newY < n && image[newX][newY] == pixelColor){
                             image[newX][newY] = color;
                             pixels.push({newX, newY});
-                        }
                     }
-                    
-                }   
+                }    
+            }   
         }
     }
     
@@ -43,9 +41,7 @@ public:
         }
         
         
-           
-        
-        
+          
         return image;
     }
 };

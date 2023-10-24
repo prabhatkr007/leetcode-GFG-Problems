@@ -23,14 +23,12 @@ class Solution {
                 TreeNode* temp = q.front();
                 q.pop();
                 maximum = max(maximum, temp->val);
-                
+
                 if(temp -> left) q.push(temp-> left);
                 if(temp -> right) q.push(temp-> right);
                 
-                
             }
             ans.push_back(maximum);
-            
         }
     }
 public:

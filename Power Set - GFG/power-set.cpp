@@ -5,16 +5,23 @@ using namespace std;
 // } Driver Code Ends
 class Solution{
     
-    void solve(string input, string output, vector<string> & ans, int i){
+    void solve(string input, string output, vector<string> & ans){
         
-        if(input.size() == i){
+        if(input.length() == 0 ){
             if(output != "")
             ans.push_back(output);
             return ;
         }
         
-        solve(input, output + input[i], ans, i+1);
-        solve(input, output, ans, i+1);
+        string op1 = output;
+        string op2 = output;
+        op2.push_back(input[0]);
+        
+        input.erase(input.begin() + 0);
+        
+        solve(input, op1, ans);
+        solve(input, op2, ans);
+        
         
         
     }
@@ -24,15 +31,15 @@ class Solution{
 		    vector<string> ans;
 		    string out;
 		    
-		   
-		    solve(s, out, ans, 0);
+		    
+		    
+		    solve(s, out, ans);
 		   
 		    sort(ans.begin(), ans.end());
 		    
 		    return ans;
 		}
 };
-
 
 
 //{ Driver Code Starts.

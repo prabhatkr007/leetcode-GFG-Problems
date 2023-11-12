@@ -15,7 +15,7 @@ public:
         }
 
         if (rotationCount == 1) {
-            return nums[n - 1] <= nums[0];
+            return nums[n - 1] <=nums[0];
         }
 
         return true;

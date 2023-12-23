@@ -13,8 +13,9 @@ public:
         
         for(int i = 0; i < nums.size(); i++){
         
+            auto it = m.find(nums[i]);
             
-            if(m[nums[i]] != 1){
+            if(it -> second != 1){
                 return true;
             }
         }

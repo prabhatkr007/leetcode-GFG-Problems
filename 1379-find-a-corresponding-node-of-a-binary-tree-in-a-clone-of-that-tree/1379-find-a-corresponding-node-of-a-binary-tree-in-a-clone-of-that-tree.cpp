@@ -22,8 +22,7 @@ public:
         TreeNode* temp2 =  getTargetCopy(original -> right, cloned-> right, target);
         
         if(temp1 != NULL ) return temp1;
-        if(temp2 != NULL ) return temp2;
-        else return NULL;
+        else return temp2;
         
         
     }

@@ -15,7 +15,7 @@ public:
     bool evaluateTree(TreeNode* root) {
         
 
-        if(!root -> left && !root ->right) return root -> val == 1;;
+        if(!root -> left && !root ->right) return root -> val == 1;
         
         bool temp1 = evaluateTree(root -> left);
         bool temp2 = evaluateTree(root -> right);

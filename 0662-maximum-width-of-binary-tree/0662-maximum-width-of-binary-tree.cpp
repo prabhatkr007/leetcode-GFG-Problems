@@ -15,16 +15,16 @@ public:
         if(!root) return 0;
         
         int width = 0;
-        queue<pair<TreeNode*, long long> > q;
+        queue<pair<TreeNode*, long> > q;
         
         q.push({root, 0});
         
         while(!q.empty()){
             int size = q.size();
-            long long mmin = q.front().second;
+            long mmin = q.front().second;
             int first, last;
             for(int i = 0; i < size; i++){
-                long long curr_index =  q.front().second - mmin;
+                long curr_index =  q.front().second - mmin;
                 
                 if(i == 0) first = curr_index ;
                 if(i == size-1) last = curr_index;

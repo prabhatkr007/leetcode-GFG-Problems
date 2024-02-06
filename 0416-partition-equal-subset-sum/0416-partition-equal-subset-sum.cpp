@@ -1,40 +1,51 @@
 class Solution {
-
-    bool solve(vector <int> &nums, int sum, int i,vector <vector<int>> &dp){
-
-        if (sum == 0)
-        return true;
-
-        if (i == 0 && sum != 0)
-        return false;
- 
-        if( dp[i][sum] != -1){
-            return dp[i][sum];
+ int isSubset(vector<int>& nums, int sum, int n){
+        int t[n+1][sum+1];
+        
+        for(int i = 0; i<=n; i++){
+            for(int j = 0; j <=sum; j++){
+                
+                if(i == 0){
+                    t[i][j] = 0;
+                }
+                
+                if(j == 0){
+                    t[i][j] = 1;
+                }
+            }
         }
 
-        if (nums[i] > sum)
-        return dp[i][sum] = solve(nums, sum, i-1, dp);
+     
+    
+        for(int i = 1; i<=n; i++){
+            for(int j = 1; j <=sum; j++){
+                
+                if(nums[i-1] <= j){
+                    t[i][j] = t[i-1][j] || t[i-1][j- nums[i-1]];
+                }else{
+                    t[i][j] = t[i-1][j];
+                }
+            }
+        }
         
-        return dp[i][sum] =  (solve(nums, sum - nums[i],i-1,dp)|| solve(nums,sum,i-1,dp));
-
-       
-        
+           return t[n][sum];
+           
     }
 public:
     bool canPartition(vector<int>& nums) {
         
 
-        int i = nums.size()-1;
-        int sum = 0;
+        int n = nums.size();
+        int sum ;
         sum = accumulate(nums.begin(), nums.end(), 0);
 
         if(sum%2 != 0){
             return false;
         }
         
-        vector<vector<int>> dp(nums.size()+1,vector<int>(sum/2+1,-1));
+        vector<vector<int>> dp(nums.size()+1, vector<int>(sum/2+1, -1));
 
-        return solve(nums,sum/2,i,dp);
+        return isSubset(nums,sum/2,n);
        
         
     }

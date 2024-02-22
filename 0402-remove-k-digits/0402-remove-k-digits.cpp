@@ -1,7 +1,7 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-    vector<char> st;
+     vector<char> st;
 
     for (char digit : num) {
         while (k > 0 && !st.empty() && st.back() > digit) {
@@ -10,7 +10,9 @@ public:
         }
 
         // Skip adding leading zeros
-        if (!st.empty() || digit != '0') {
+        if (st.empty() && digit == '0') {
+            continue;
+        }else{
             st.push_back(digit);
         }
     }

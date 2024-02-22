@@ -1,7 +1,7 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-     std::vector<char> st;
+     vector<char> st;
 
     for (char digit : num) {
         while (k > 0 && !st.empty() && st.back() > digit) {
@@ -20,7 +20,7 @@ public:
         k--;
     }
 
-    std::string result = "";
+    string result = "";
     for (char digit : st) {
         result += digit;
     }

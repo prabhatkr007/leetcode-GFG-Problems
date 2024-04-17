@@ -18,7 +18,8 @@ public:
             
             if (j - i + 1 < k) { 
                 j++;
-            } else { 
+            } 
+            else if(j -i +1 == k){ 
                 ans.push_back(ls.front()); 
                 
                 // If the element going out of the window was the maximum,

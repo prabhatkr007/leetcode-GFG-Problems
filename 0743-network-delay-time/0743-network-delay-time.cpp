@@ -23,9 +23,7 @@ public:
             auto [time, node] = pq.top();
             pq.pop();
             
-            if (time > dist[node]) {
-                continue;
-            }
+
             
             for (const auto& neighbor : graph[node]) {
                 int nextNode = neighbor.first;

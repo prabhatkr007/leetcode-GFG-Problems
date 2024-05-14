@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int dfs(int i, int j, vector<vector<int>>& grid, int n, int m, vector<pair<int, int>> &directions,  vector<vector<bool>> &visited) {
+    int dfs(int i, int j, vector<vector<int>>& grid, int n, int m, const vector<pair<int, int>> &directions,  vector<vector<bool>> &visited) {
         
         int curr = grid[i][j];
         visited[i][j] = true; // Mark as visited
@@ -25,7 +25,7 @@ public:
         int m = grid[0].size();
 
         int maxGold = 0;
-        vector<pair<int, int>> directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        const vector<pair<int, int>> directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
         vector<vector<bool>> visited(n, vector<bool> (m, false));
         
         for (int i = 0; i < n; i++) {

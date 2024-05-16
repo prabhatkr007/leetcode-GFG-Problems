@@ -14,23 +14,26 @@ class Solution {
 public:
     bool evaluateTree(TreeNode* root) {
         
-
-        if(!root -> left && !root ->right) return root -> val == 1;
-        
-        bool temp1 = evaluateTree(root -> left);
-        bool temp2 = evaluateTree(root -> right);
-        
-    
-        if(root -> val == 2 ) {
-            if(temp1==0 && temp2 == 0) return false ;
-            else return true;
+        if(root -> val == 0){
+            return false;
         }
-            
+        
+        if(root -> val == 1){
+            return true;
+        }
+    
+        
+        bool left = evaluateTree(root -> left);
+        bool right = evaluateTree(root -> right);
+        
+        if(root -> val == 2){
+            return left || right;
+        }
+        
         if(root -> val == 3){
-            if(temp1==1 && temp2 == 1) return true ;
-            else return false;
+            return left && right;
         }
-        return true;
+        
+        return true; 
     }
-    
 };

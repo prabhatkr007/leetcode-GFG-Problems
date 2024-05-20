@@ -38,7 +38,7 @@ public:
 
     bool checkPartitioning(string s) {
         int n = s.size();
-        vector<vector<int>> memo(n, vector<int>(3, -1)); // Memo table initialized to -1
+        vector<vector<int>> memo(n, vector<int>(3, -1)); 
         bool found = false;
         backtrack(s, 0, 0, memo, found);
         return found;

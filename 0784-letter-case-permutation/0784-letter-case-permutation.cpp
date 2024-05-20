@@ -4,8 +4,6 @@ public:
            result.push_back(temp);
          }
            
-        
-        
             for (int i = start; i < s.size(); ++i) {
                 if(isalpha(s[i])){
                     temp.push_back(toupper(s[i]));

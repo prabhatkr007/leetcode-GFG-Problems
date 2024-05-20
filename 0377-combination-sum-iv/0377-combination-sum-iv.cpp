@@ -14,10 +14,10 @@ class Solution {
         int count = 0;
         
     
-        for (int num : nums) {
-            if (target >= num) {
+        for (int i =0; i < nums.size(); i++) {
+            if (target >= nums[i]) {
              
-                count += util(nums, target - num, memo);
+                count += util(nums, target - nums[i], memo);
             }
         }
           memo[target] = count;

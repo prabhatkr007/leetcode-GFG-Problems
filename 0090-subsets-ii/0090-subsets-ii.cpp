@@ -5,7 +5,7 @@ public:
         result.push_back(temp);
          
         for (int i = start; i < nums.size(); ++i) { 
-            // Skip duplicates
+            // Skip duplicates and to avoid skipping the first occurrence of duplicate elements.
             if (i > start && nums[i] == nums[i - 1]) continue;
             
                 temp.push_back(nums[i]);

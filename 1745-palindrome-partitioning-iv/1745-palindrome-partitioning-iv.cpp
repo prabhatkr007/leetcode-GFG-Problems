@@ -24,9 +24,9 @@ public:
             return;
         }
 
-        for (int end = start; end < s.size(); ++end) {
-            if (isPalindrome(s, start, end)) {
-                backtrack(s, end + 1, count + 1, memo, found);
+        for (int i = start; i < s.size(); ++i) {
+            if (isPalindrome(s, start, i)) {
+                backtrack(s, i + 1, count + 1, memo, found);
                 if (found) {
                     return;
                 }

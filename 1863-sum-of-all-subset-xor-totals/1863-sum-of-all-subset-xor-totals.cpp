@@ -16,9 +16,9 @@ class Solution {
         
         for(int i = start; i < nums.size(); i++){
             
-            subset.push_back(nums[i]);
+            subset.push_back(nums[i]);  // Include nums[i] in the subset
             subsetUtil(i + 1, nums, subset, sum);
-            subset.pop_back();
+            subset.pop_back(); // Exclude nums[i] from the subset (backtrack)
         }
     }
     

@@ -1,6 +1,3 @@
-#include <vector>
-#include <string>
-using namespace std;
 
 class Solution {
 public:
@@ -23,9 +20,9 @@ private:
         }
 
         for (int col = 0; col < n; ++col) {
-            if (columns[col] || diag1[row + col] || diag2[row - col + n - 1]) {
-                continue; // If the column or diagonals are occupied, skip this position
-            }
+            if (!columns[col] && !diag1[row + col] && !diag2[row - col + n - 1]) {
+              
+         
 
             // Place the queen
             board[row][col] = 'Q';
@@ -41,6 +38,7 @@ private:
             columns[col] = 0;
             diag1[row + col] = 0;
             diag2[row - col + n - 1] = 0;
+            }
         }
     }
 };

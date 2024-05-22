@@ -8,25 +8,25 @@ class Solution {
         return true;
     }
     
-    int minPartitions(int i, int n, string &str,  vector<int> &dp) {
-        if (i == n) return 0;
-        if (dp[i] != -1) return dp[i];
+    int minPartitions(int start, string &str,  vector<int> &dp) {
+        if (start == str.size()) return 0;
+        if (dp[start] != -1) return dp[start];
         
         int minCost = INT_MAX;
         
-        for (int j = i; j < n; j++) {
-            if (isPalindrome(i, j, str)) {
-                int cost = 1 + minPartitions(j + 1, n, str, dp);
+        for (int i = start; i < str.size(); i++) {
+            if (isPalindrome(start, i, str)) {
+                int cost = 1 + minPartitions(i + 1, str, dp);
                 minCost = min(minCost, cost);
             }
         }
-        return dp[i] = minCost;
+        return dp[start] = minCost;
     }
 public:
     int minCut(string s) {
         int n = s.size();
         vector<int> dp(n, -1);
             
-        return minPartitions(0, n, s, dp) - 1;
+        return minPartitions(0, s, dp) - 1;
     }
 };

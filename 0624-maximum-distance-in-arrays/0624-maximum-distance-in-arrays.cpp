@@ -1,57 +1,19 @@
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& arrays) {
-        int smallest = INT_MAX;
-        int picIndex = -1;
-        int largest = INT_MIN;
-        int ans = 0;
-        // for positive numner
-        for(int i = 0; i < arrays.size(); i++){
-           if(smallest > arrays[i][0]){
-               smallest = arrays[i][0];
-               picIndex = i;
-           }
-            
-            
+        int minVal = arrays[0][0];
+        int maxVal = arrays[0].back();
+        int maxDistance = 0;
+
+        for(int i = 1; i < arrays.size(); i++) {
+           
+            maxDistance = max(maxDistance, max(abs(arrays[i].back() - minVal), abs(maxVal - arrays[i][0])));
+
+     
+            minVal = min(minVal, arrays[i][0]);
+            maxVal = max(maxVal, arrays[i].back());
         }
-        
-        for(int i = 0; i < arrays.size(); i++){
-        
-            if(picIndex != i){
-                largest = max( largest, arrays[i][arrays[i].size()-1]);
-                 ans = max(abs( largest- smallest) , ans);
-            }
-            
-          
-            
-        }
-        
-        smallest = INT_MAX;
-        picIndex = -1;
-        largest = INT_MIN;
-        int ans1 = 0;
-        
-        //for negative no.
-        
-        for(int i = 0; i < arrays.size(); i++){
-           if(largest < arrays[i][arrays[i].size()-1]){
-               largest = arrays[i][arrays[i].size()-1];
-               picIndex = i;
-           }
-            
-            
-        }
-        
-        for(int i = 0; i < arrays.size(); i++){
-        
-            if(picIndex != i){
-                smallest = min( smallest, arrays[i][0]);
-                 ans1 = max(abs( smallest- largest) , ans);
-            }
-            
-          
-            
-        }
-        return max(ans, ans1);
+
+        return maxDistance;
     }
 };

@@ -5,7 +5,7 @@ public:
         int picIndex = -1;
         int largest = INT_MIN;
         int ans = 0;
-        
+        // for positive numner
         for(int i = 0; i < arrays.size(); i++){
            if(smallest > arrays[i][0]){
                smallest = arrays[i][0];
@@ -30,6 +30,8 @@ public:
         picIndex = -1;
         largest = INT_MIN;
         int ans1 = 0;
+        
+        //for negative no.
         
         for(int i = 0; i < arrays.size(); i++){
            if(largest < arrays[i][arrays[i].size()-1]){

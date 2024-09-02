@@ -6,10 +6,9 @@ public:
         }
         
         vector<vector<int>> arr(m, vector<int>(n));
-        int r = 0;
         for (int i = 0; i < original.size(); i++) {
-            arr[r][i % n] = original[i];
-            if (i % n == n - 1) r++;
+            arr[i /n][i % n] = original[i];
+           
         }
         
         return arr;

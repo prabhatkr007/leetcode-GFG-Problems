@@ -7,9 +7,10 @@ class Solution {
                 }
             }
         }
+    
     public:
     int makeConnected(int n, vector<vector<int>>& connections) {
-        // If there are fewer cables than n-1, it's impossible to connect all computers
+
         if (connections.size() < n - 1) {
             return -1;
         }

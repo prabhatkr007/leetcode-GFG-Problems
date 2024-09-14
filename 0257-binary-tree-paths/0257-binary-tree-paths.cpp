@@ -17,11 +17,13 @@ class Solution {
 
         if (!root->left && !root->right) {
             paths.push_back(path);
-        } else {
-            path += "->";
-            if (root->left) findPaths(root->left, path, paths);
-            if (root->right) findPaths(root->right, path, paths);
-        }
+            return;
+        }  
+         
+        path += "->";
+        if (root->left) findPaths(root->left, path, paths);
+        if (root->right) findPaths(root->right, path, paths);
+        
         
     }
 public:

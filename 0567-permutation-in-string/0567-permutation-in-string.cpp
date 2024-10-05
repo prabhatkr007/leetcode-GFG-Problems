@@ -16,19 +16,13 @@ public:
             
              v2[s2[j] -'a']++;
             
-            if(j -i+ 1 < k){
-               j++;
-                
-            }
-            
-            else if(j-i+1 == k){
+            if(j-i+1 == k){
                 if(v1 == v2) return true;
                 v2[s2[i] -'a']--;
                 i++;
-                j++;
             }
             
-            
+            j++;
         }
         
         return false;

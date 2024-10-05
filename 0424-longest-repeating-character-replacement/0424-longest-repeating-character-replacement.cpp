@@ -17,9 +17,12 @@ public:
          }
         
         else if ((j - i + 1) - maxi > k) {
-            m[s[i]]--;
-            if (m[s[i]] == 0) m.erase(s[i]);
-            i++;
+            while((j - i + 1) - maxi > k){
+                m[s[i]]--;
+                if (m[s[i]] == 0) m.erase(s[i]);
+                i++;
+            }
+           
         }
 
         j++;

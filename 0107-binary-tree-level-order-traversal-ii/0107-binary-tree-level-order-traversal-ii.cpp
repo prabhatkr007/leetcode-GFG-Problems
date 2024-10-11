@@ -14,7 +14,6 @@ public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
         vector<vector<int>> ans;
         queue<TreeNode*> q;
-        stack<vector<int> > s;
         if(!root) return ans;
         q.push(root);
 
@@ -34,15 +33,11 @@ public:
                 }
             }
             
-            s.push(temp);
+            ans.push_back(temp);
     }
         
         
-        
-        while(!s.empty()){
-            ans.push_back(s.top());
-            s.pop();
-        }
+        reverse(ans.begin(), ans.end());
         
         return ans;
     }

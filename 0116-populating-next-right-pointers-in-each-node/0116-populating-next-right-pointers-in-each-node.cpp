@@ -24,12 +24,11 @@ public:
             return NULL;
         }
         
-        Node* current = root;
         Node* leftmost = root;
         
         while(leftmost->left != NULL){
             
-            current = leftmost ;
+            Node* current = leftmost ;
             while(current != NULL){
                 current->left->next = current-> right;
                 if(current->next){

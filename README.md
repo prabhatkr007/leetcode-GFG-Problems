@@ -7,6 +7,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0001-two-sum) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 | [3429-special-array-i](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3429-special-array-i) |
@@ -14,6 +15,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0001-two-sum) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 ## Math
@@ -38,4 +40,16 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [3447-clear-digits](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3447-clear-digits) |
+## Two Pointers
+|  |
+| ------- |
+| [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
+## Binary Search
+|  |
+| ------- |
+| [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
+## Sorting
+|  |
+| ------- |
+| [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
 <!---LeetCode Topics End-->

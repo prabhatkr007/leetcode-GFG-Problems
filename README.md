@@ -31,14 +31,17 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## String
 |  |
 | ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3447-clear-digits](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3447-clear-digits) |
 ## Stack
 |  |
 | ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3447-clear-digits](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
 | ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3447-clear-digits](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3447-clear-digits) |
 ## Two Pointers
 |  |

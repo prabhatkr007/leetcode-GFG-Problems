@@ -9,6 +9,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 | [0001-two-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0001-two-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
+| [2310-minimum-operations-to-halve-array-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2448-count-number-of-bad-pairs](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 | [3429-special-array-i](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3429-special-array-i) |
 ## Hash Table
@@ -55,4 +56,12 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
+## Greedy
+|  |
+| ------- |
+| [2310-minimum-operations-to-halve-array-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2310-minimum-operations-to-halve-array-sum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2310-minimum-operations-to-halve-array-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2310-minimum-operations-to-halve-array-sum) |
 <!---LeetCode Topics End-->

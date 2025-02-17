@@ -18,6 +18,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 | ------- |
 | [0001-two-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0001-two-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
+| [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 ## Math
@@ -28,11 +29,13 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## Counting
 |  |
 | ------- |
+| [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 ## String
 |  |
 | ------- |
+| [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3447-clear-digits](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3447-clear-digits) |
 ## Stack
@@ -67,4 +70,8 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 | ------- |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2310-minimum-operations-to-halve-array-sum) |
+## Backtracking
+|  |
+| ------- |
+| [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 <!---LeetCode Topics End-->

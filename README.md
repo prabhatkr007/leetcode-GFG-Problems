@@ -24,6 +24,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## Math
 |  |
 | ------- |
+| [0326-power-of-three](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0326-power-of-three) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
 ## Counting
@@ -74,4 +75,8 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
+## Recursion
+|  |
+| ------- |
+| [0326-power-of-three](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0326-power-of-three) |
 <!---LeetCode Topics End-->

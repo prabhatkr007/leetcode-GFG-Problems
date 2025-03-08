@@ -38,6 +38,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 | ------- |
 | [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3447-clear-digits](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3447-clear-digits) |
 ## Stack
 |  |
@@ -79,4 +80,8 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0326-power-of-three](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0326-power-of-three) |
+## Sliding Window
+|  |
+| ------- |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 <!---LeetCode Topics End-->

@@ -7,6 +7,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0001-two-sum) |
+| [0079-word-search](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0079-word-search) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2094-remove-stones-to-minimize-the-total) |
@@ -36,6 +37,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## String
 |  |
 | ------- |
+| [0079-word-search](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0079-word-search) |
 | [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -75,6 +77,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## Backtracking
 |  |
 | ------- |
+| [0079-word-search](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0079-word-search) |
 | [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 ## Recursion
 |  |
@@ -84,4 +87,12 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->

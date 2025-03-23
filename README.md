@@ -13,6 +13,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 | [2094-remove-stones-to-minimize-the-total](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2448-count-number-of-bad-pairs](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3429-special-array-i](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/3429-special-array-i) |
 ## Hash Table
 |  |
@@ -60,6 +61,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Sorting
 |  |
 | ------- |
@@ -74,6 +76,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 | ------- |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2310-minimum-operations-to-halve-array-sum) |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Backtracking
 |  |
 | ------- |
@@ -95,4 +98,13 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0079-word-search](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0079-word-search) |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
+## Union Find
+|  |
+| ------- |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->

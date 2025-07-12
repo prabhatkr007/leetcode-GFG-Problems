@@ -96,6 +96,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 | ------- |
 | [0079-word-search](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0113-path-sum-ii) |
+| [0207-course-schedule](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0207-course-schedule) |
 ## Matrix
 |  |
 | ------- |
@@ -104,6 +105,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0207-course-schedule) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Union Find
 |  |
@@ -117,4 +119,12 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0113-path-sum-ii) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->

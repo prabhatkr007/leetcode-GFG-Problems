@@ -8,6 +8,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 | ------- |
 | [0001-two-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0001-two-sum) |
 | [0079-word-search](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0079-word-search) |
+| [0347-top-k-frequent-elements](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2094-remove-stones-to-minimize-the-total) |
@@ -19,6 +20,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0001-two-sum) |
+| [0347-top-k-frequent-elements](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
@@ -32,6 +34,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0347-top-k-frequent-elements) |
 | [1160-letter-tile-possibilities](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2448-count-number-of-bad-pairs) |
@@ -65,6 +68,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## Sorting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0532-k-diff-pairs-in-an-array) |
 ## Greedy
 |  |
@@ -74,6 +78,7 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0347-top-k-frequent-elements) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -127,4 +132,16 @@ Collection of LeetCode and GFG questions to ace the coding interview!!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0207-course-schedule) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/prabhatkr007/leetcode-GFG-Problems/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
